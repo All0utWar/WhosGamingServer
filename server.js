@@ -4,6 +4,7 @@ const MessagingResponse = require('twilio').twiml.MessagingResponse;
 const bodyParser = require('body-parser');
 const app = express();
 
+// Added accountSID + authToken fron Twilio Console
 const accountSid = undefined;
 const authToken = undefined;
 const client = require('twilio')(accountSid, authToken);
